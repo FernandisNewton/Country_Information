@@ -1,0 +1,29 @@
+.countryInfo {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+  grid-auto-columns: max-content;
+  gap: 25px;
+  padding: 20px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+
+.title {
+  font-size: 3rem;
+  color: rgb(68, 68, 68);
+}
+
+.header {
+  height: 15vh;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (max-width: 500px) {
+  .title {
+    font-size: 1.3rem;
+  }
+}
