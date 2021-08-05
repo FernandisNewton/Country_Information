@@ -21,8 +21,8 @@ function DataCard({ data }) {
           <h2 className="brd">Borders: {data.borders.join(",")}</h2>
           <h2>
             Languages:
-            {data.languages.map((val) => {
-              return `${val.name},`;
+            {data.languages.map((language) => {
+              return `${language.name},`;
             })}
           </h2>
         </CardContent>

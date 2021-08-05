@@ -64,8 +64,8 @@ function CountryData() {
         </Button>
       </div>
       <div className="countryInfo">
-        {data.map((val, idx) => {
-          return <DataCard key={idx} data={val} />;
+        {data.map((item, idx) => {
+          return <DataCard key={idx} data={item} />;
         })}
       </div>
     </div>
