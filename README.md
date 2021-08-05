@@ -6,9 +6,11 @@
 
  
 
-[ PRETEND SCREEN SHOT IS HERE ]
+![CountryInfo](screenshots/ss2.png)
 
-[ PRETEND OTHER SCREEN SHOT IS HERE ]
+![CountryInfo](screenshots/ss1.png)
+
+ 
 
 # Installation and Setup Instructions
 
